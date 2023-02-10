@@ -47,3 +47,12 @@ differences in product availability depending on language version <br /> PART 1 
 differences in product availability depending on language version <br /> PART 2 <br />/<br /> MEDIUM | 1. open https://mepel.pl/ on browser  <br /> 2. select English language on top right corner of the page by clicking on England flag  <br /> 3. in searching bar type: "redrewno" and press enter  <br /> 4. repeat 1-3 steps but with Polish site version <br /> 5. compare displayed products | Polish and English site version looks the same | English language version allows you to purchase products and the Polish version does not
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
+
+
+## Contact
+Have questions? Feel free to write!
+
+:email: alex.mon8787@gmail.com
+
+[![LinkedIn](https://img.shields.io/badge/Here%20Is%20My%20Profile-LinkedIn-informational)](https://www.linkedin.com/in/monika-dzik-wro-test76aa/)
+
