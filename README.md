@@ -22,7 +22,8 @@ searching without entering any criteria | in the search bar at the top of the pa
 
 ###  * **Newsletter:**
 
-Preconditions: browser open at: https://mepel.pl/, email address generated using the [10minutemail.net](10minutemail.com) website
+Preconditions: browser open at: https://mepel.pl/; email address generated using the [10minutemail.net](10minutemail.com) website
+
 Title | Action | Expected result
 ------|--------| ---------------
 correct subscription | in the "newsletter" field at the bottom of the page, enter the email address you generated and click "zapisz się!" | confirmation email has been sent
@@ -35,6 +36,16 @@ incorrect email | in the "newsletter" field at the bottom of the page, enter ema
 ---
 
 # Bug Reports :beetle:
+
+## [cararena.pl](https://cararena.pl/)
+
+Preconditions:
+browser open at: https://cararena.pl/formularz-finansowanie#step1 ; email address generated using the [10minutemail.net](10minutemail.com) website
+
+Title / Severity | Steps to reproduce | Expected result | Effect received
+:---------------:|:--------------------| :---------------: | :---------------:
+contact form disappears <br />/<br /> MEDIUM | 1. Enter generated email address and press "Następny krok" <br /> 2. At the top left of the page, select step 1 (circled number) to go back to the previous step | The form goes back to the previous page | Contact form disappears 
+
 
 ## [mepel.pl](mepel.pl)
 
