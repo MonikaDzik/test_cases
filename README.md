@@ -35,7 +35,7 @@ incorrect email | in the "newsletter" field at the bottom of the page, enter ema
 
 ---
 
-# Bug Reports :beetle:
+# Bug Reports :bug:
 
 ## [cararena.pl](https://cararena.pl/)
 
