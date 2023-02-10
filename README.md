@@ -6,7 +6,7 @@ Here you will find projects that I run independently. There will be more and mor
 
 # Test cases :paperclip:
 
-## [mepel.pl](mepel.pl)
+## [mepel.pl](https://mepel.pl/)
   ###  **Searching:**
   
 Preconditions: browser open at: https://mepel.pl/
@@ -46,8 +46,10 @@ Title / Severity | Steps to reproduce | Expected result | Effect received
 :---------------:|:--------------------| :---------------: | :---------------:
 contact form disappears <br />/<br /> MEDIUM | 1. Enter generated email address and press "Następny krok" <br /> 2. At the top left of the page, select step 1 (circled number) to go back to the previous step | The form goes back to the previous page | Contact form disappears 
 
+*Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
-## [mepel.pl](mepel.pl)
+
+## [mepel.pl](https://mepel.pl/)
 
 Preconditions: browser open at: https://mepel.pl/
 
