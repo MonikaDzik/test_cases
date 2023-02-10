@@ -20,7 +20,7 @@ searching without entering any criteria | in the search bar at the top of the pa
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
 
-###  * **Newsletter:**
+###   **Newsletter:**
 
 Preconditions: browser open at: https://mepel.pl/; email address generated using the [10minutemail.net](10minutemail.com) website
 
