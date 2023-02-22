@@ -1,6 +1,6 @@
 # My test documentation :open_file_folder:
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MonikaDzik/portfolio?color=lightgreen&logo=GitHub&logoColor=white">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MonikaDzik/test_cases?color=lightgreen&logo=GitHub&logoColor=white">
 
 Here you will find projects that I run independently. There will be more and more of them over time. I write test cases to constantly practice my skills. I even found some bugs 😃
 
