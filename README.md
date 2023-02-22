@@ -1,5 +1,7 @@
 # My test documentation :open_file_folder:
 
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MonikaDzik/portfolio?color=lightgreen&logo=GitHub&logoColor=white">
+
 Here you will find projects that I run independently. There will be more and more of them over time. I write test cases to constantly practice my skills. I even found some bugs 😃
 
 ----
@@ -68,4 +70,3 @@ Have questions? Feel free to write!
 :email: alex.mon8787@gmail.com
 
 [![LinkedIn](https://img.shields.io/badge/Here%20Is%20My%20Profile-LinkedIn-informational)](https://www.linkedin.com/in/monika-dzik-wro-test76aa/)
-
