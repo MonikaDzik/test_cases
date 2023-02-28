@@ -1,6 +1,6 @@
 # My test documentation :open_file_folder:
 
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MonikaDzik/test_cases?color=lightgreen&logo=GitHub&logoColor=white">
+[![GitHub last commit](https://img.shields.io/github/last-commit/MonikaDzik/test_cases?color=lightgreen&logo=github)](https://github.com/MonikaDzik)
 
 Here you will find projects that I run independently. There will be more and more of them over time. I write test cases to constantly practice my skills. I even found some bugs 😃
 
@@ -14,10 +14,10 @@ Here you will find projects that I run independently. There will be more and mor
 Preconditions: browser open at: https://mepel.pl/
 Title | Action | Expected result
 ------|--------| ---------------
-correct search | in the search bar at the top of the page enter: "d&d" and press enter | a list of products containing the searched phrase along with information about availability
-search for an incomplete phrase | in the search bar at the top of the page: "d" and press enter | Incorrect search criteria message is displayed - minimum two characters required
-phrase search | in the search bar at the top of the page enter the phrase: "d&d monster" and press enter | a list of products containing the searched phrase along with information about availability
-searching without entering any criteria | in the search bar at the top of the page do not enter any phases and click the magnifying glass on the right | below the search bar a message appears asking to enter a searching phrase
+Correct search | In the search bar at the top of the page enter: "d&d" and press enter | List of products containing the searched phrase along with information about availability
+Search for an incomplete phrase | In the search bar at the top of the page: "d" and press enter | Incorrect search criteria message is displayed - minimum two characters required
+Phrase search | In the search bar at the top of the page enter the phrase: "d&d monster" and press enter | List of products containing the searched phrase along with information about availability
+Searching without entering any criteria | In the search bar at the top of the page do not enter any phases and click the magnifying glass on the right | Below the search bar a message appears asking to enter a searching phrase
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
@@ -28,9 +28,9 @@ Preconditions: browser open at: https://mepel.pl/; email address generated using
 
 Title | Action | Expected result
 ------|--------| ---------------
-correct subscription | in the "newsletter" field at the bottom of the page, enter the email address you generated and click "zapisz się!" | confirmation email has been sent
-re-subscribe to the same email address | in the "newsletter" field at the bottom of the page, enter same email address you generated and click "zapisz się!" | redirected to a page with information "this address is already in the database", a field is displayed that allows you to unsubscribe, the repeated email address is already entered in the field
-incorrect email | in the "newsletter" field at the bottom of the page, enter email address without "@" symbol and click "zapisz się!" | redirected to a page with the message: Invalid email address format
+Correct subscription | In the "newsletter" field at the bottom of the page, enter the email address you generated and click "zapisz się!" | Confirmation email has been sent
+Re-subscribe to the same email address | In the "newsletter" field at the bottom of the page, enter same email address you generated and click "zapisz się!" | Redirected to a page with information "this address is already in the database", a field is displayed that allows you to unsubscribe, the repeated email address is already entered in the field
+Incorrect email | In the "newsletter" field at the bottom of the page, enter email address without "@" symbol and click "zapisz się!" | Redirected to a page with the message: Invalid email address format
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
@@ -61,7 +61,7 @@ browser open at: https://cararena.pl/formularz-finansowanie#step1 ; email addres
 
 Title / Severity | Steps to reproduce | Expected result | Effect received
 :---------------:|:--------------------| :---------------: | :---------------:
-contact form disappears <br />/<br /> MEDIUM | 1. Enter generated email address and press "Następny krok" <br /> 2. At the top left of the page, select step 1 (circled number) to go back to the previous step | The form goes back to the previous page | Contact form disappears 
+Contact form disappears <br />/<br /> MEDIUM | 1. Enter generated email address and press "Następny krok" <br /> 2. At the top left of the page, select step 1 (circled number) to go back to the previous step | The form goes back to the previous page | Contact form disappears 
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
