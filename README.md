@@ -37,7 +37,22 @@ incorrect email | in the "newsletter" field at the bottom of the page, enter ema
 
 ---
 
+
 # Bug Reports :bug:
+
+## [Rosmann](https://www.rossmann.pl/)
+
+Preconditions:
+browser open at: https://www.rossmann.pl/ ; user properly logged into an account ; few (at least five) items added to cart
+
+
+
+Title / Severity | Steps to reproduce | Expected result | Effect received | Likelihood of recurrence
+:---------------:|:--------------------| :---------------: | :---------------: | :-----------:
+The cart preview is displayed incorrectly <br />/<br /> LOW | 1. Having several (at least five) items in the basket, return to the main page by clicking on the "ROSMANN" button at the top of the page <br /> 2. Hover your cursor over the shopping cart icon in the upper right part of the screen <br /> | Preview shows the actual contents of the cart | Cart preview shows no items name or photo. All items names are replaced by *-NaN zł* notification - see [photo](https://drive.google.com/file/d/1EjAdpfUxiOVca5ti8P5wKjLfcQPUkjH6/view?usp=sharing) | LOW - despite numerous attempts, the observed error was not reproduced |
+
+*Description:*  Windows 10 Home (x64), browser Firefox ver. 110.0
+
 
 ## [cararena.pl](https://cararena.pl/)
 
@@ -57,9 +72,9 @@ Preconditions: browser open at: https://mepel.pl/
 
 Title / Severity | Steps to reproduce | Expected result | Effect received
 :---------------:|:--------------------| :---------------: | :---------------:
-no newsletter in English language version <br />/<br /> MEDIUM | 1. open https://mepel.pl/ on browser <br /> 2. select English language on top right corner of the page by clicking on England flag <br /> 3. go to end of the page and enter email address in newsletter field | correct subscription | there is no newsletter field on English language vershion
-differences in product availability depending on language version <br /> PART 1 <br />/<br /> MEDIUM | 1. open https://mepel.pl/ on browser <br /> 2. select English language on top right corner of the page by clicking on England flag <br /> 3. change language few times from English to Polish and back <br /> 4. compare the displayed panels | Polish and English site version looks the same | in English version at the top of the page you can see an advertising panel, which is not available in the Polish language version
-differences in product availability depending on language version <br /> PART 2 <br />/<br /> MEDIUM | 1. open https://mepel.pl/ on browser  <br /> 2. select English language on top right corner of the page by clicking on England flag  <br /> 3. in searching bar type: "redrewno" and press enter  <br /> 4. repeat 1-3 steps but with Polish site version <br /> 5. compare displayed products | Polish and English site version looks the same | English language version allows you to purchase products and the Polish version does not
+No newsletter in English language version <br />/<br /> MEDIUM | 1. Open https://mepel.pl/ on browser <br /> 2. Select English language on top right corner of the page by clicking on England flag <br /> 3. Go to end of the page and enter email address in newsletter field | Correct subscription | There is no newsletter field on English language vershion
+Differences in product availability depending on language version <br /> PART 1 <br />/<br /> MEDIUM | 1. Open https://mepel.pl/ on browser <br /> 2. Select English language on top right corner of the page by clicking on England flag <br /> 3. Change language few times from English to Polish and back <br /> 4. Compare the displayed panels | Polish and English site version looks the same | In English version at the top of the page you can see an advertising panel, which is not available in the Polish language version
+Differences in product availability depending on language version <br /> PART 2 <br />/<br /> MEDIUM | 1. Open https://mepel.pl/ on browser  <br /> 2. Select English language on top right corner of the page by clicking on England flag  <br /> 3. In searching bar type: "redrewno" and press enter  <br /> 4. Repeat 1-3 steps but with Polish site version <br /> 5. Compare displayed products | Polish and English site version looks the same | English language version allows you to purchase products and the Polish version does not
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
 
