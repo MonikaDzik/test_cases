@@ -6,39 +6,9 @@ Here you will find projects that I run independently. There will be more and mor
 
 ----
 
-# Test cases :paperclip:
-
-## [mepel.pl](https://mepel.pl/)
-  ###  **Searching:**
-  
-Preconditions: browser open at: https://mepel.pl/
-Title | Action | Expected result
-------|--------| ---------------
-Correct search | In the search bar at the top of the page enter: "d&d" and press enter | List of products containing the searched phrase along with information about availability
-Search for an incomplete phrase | In the search bar at the top of the page: "d" and press enter | Incorrect search criteria message is displayed - minimum two characters required
-Phrase search | In the search bar at the top of the page enter the phrase: "d&d monster" and press enter | List of products containing the searched phrase along with information about availability
-Searching without entering any criteria | In the search bar at the top of the page do not enter any phases and click the magnifying glass on the right | Below the search bar a message appears asking to enter a searching phrase
-
-*Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
-
-
-###   **Newsletter:**
-
-Preconditions: browser open at: https://mepel.pl/; email address generated using the [10minutemail.net](10minutemail.com) website
-
-Title | Action | Expected result
-------|--------| ---------------
-Correct subscription | In the "newsletter" field at the bottom of the page, enter the email address you generated and click "zapisz się!" | Confirmation email has been sent
-Re-subscribe to the same email address | In the "newsletter" field at the bottom of the page, enter same email address you generated and click "zapisz się!" | Redirected to a page with information "this address is already in the database", a field is displayed that allows you to unsubscribe, the repeated email address is already entered in the field
-Incorrect email | In the "newsletter" field at the bottom of the page, enter email address without "@" symbol and click "zapisz się!" | Redirected to a page with the message: Invalid email address format
-
-*Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
-
-
----
-
-
 # Bug Reports :bug:
+
+
 
 ## [Rosmann](https://www.rossmann.pl/)
 
@@ -77,6 +47,38 @@ Differences in product availability depending on language version <br /> PART 1 
 Differences in product availability depending on language version <br /> PART 2 <br />/<br /> MEDIUM | 1. Open https://mepel.pl/ on browser  <br /> 2. Select English language on top right corner of the page by clicking on England flag  <br /> 3. In searching bar type: "redrewno" and press enter  <br /> 4. Repeat 1-3 steps but with Polish site version <br /> 5. Compare displayed products | Polish and English site version looks the same | English language version allows you to purchase products and the Polish version does not
 
 *Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
+
+----
+
+# Test cases :paperclip:
+
+## [mepel.pl](https://mepel.pl/)
+  ###  **Searching:**
+  
+Preconditions: browser open at: https://mepel.pl/
+Title | Action | Expected result
+------|--------| ---------------
+Correct search | In the search bar at the top of the page enter: "d&d" and press enter | List of products containing the searched phrase along with information about availability
+Search for an incomplete phrase | In the search bar at the top of the page: "d" and press enter | Incorrect search criteria message is displayed - minimum two characters required
+Phrase search | In the search bar at the top of the page enter the phrase: "d&d monster" and press enter | List of products containing the searched phrase along with information about availability
+Searching without entering any criteria | In the search bar at the top of the page do not enter any phases and click the magnifying glass on the right | Below the search bar a message appears asking to enter a searching phrase
+
+*Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
+
+
+###   **Newsletter:**
+
+Preconditions: browser open at: https://mepel.pl/; email address generated using the [10minutemail.net](10minutemail.com) website
+
+Title | Action | Expected result
+------|--------| ---------------
+Correct subscription | In the "newsletter" field at the bottom of the page, enter the email address you generated and click "zapisz się!" | Confirmation email has been sent
+Re-subscribe to the same email address | In the "newsletter" field at the bottom of the page, enter same email address you generated and click "zapisz się!" | Redirected to a page with information "this address is already in the database", a field is displayed that allows you to unsubscribe, the repeated email address is already entered in the field
+Incorrect email | In the "newsletter" field at the bottom of the page, enter email address without "@" symbol and click "zapisz się!" | Redirected to a page with the message: Invalid email address format
+
+*Description:*  Windows 10 Home (x64), browser Chrome ver. 110.0.5481.78
+
+
 
 
 ## Contact
