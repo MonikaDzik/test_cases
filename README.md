@@ -9,6 +9,17 @@ Here you will find projects that I run independently. There will be more and mor
 # Bug Reports :bug:
 
 
+## [saphir.com.pl](https://saphir.com.pl/)
+
+Preconditions:
+browser open at: https://saphir.com.pl/ 
+
+
+Title / Severity | Steps to reproduce | Expected result | Effect received 
+:---------------:|:--------------------| :---------------: |:---------------
+Product display sort selection not working <br /><br /> **HIGH** | 1. Select the tab: "For men" (Dla mężczyzn) <br /> 2. Select the product sorting method: "prices, descending" (Ceny, malejąco) | Products are listed from most expensive to cheapest | No product list -> [photo](https://drive.google.com/file/d/1zoY8v0Uz_yILLhqnlJFhVwM0YvjjKwrJ/view?usp=sharing) <br />-<br /> **NOTE:** The same error is also present in the "For women" tab. The error occurs when selecting sorting by prices - from the lowest and from the highest <br /> **"For women" tab:** <br /> Ascending [photo](https://drive.google.com/file/d/1RyomH_LFvxb7RYwRmJew2nMPat5jcgi1/view?usp=sharing) & Descending [photo](https://drive.google.com/file/d/1v05bh5PUKYe_dnrcBvAeo33y-hoIa5hZ/view?usp=sharing) <br /> **"For man" tab:** <br /> Ascending [photo](https://drive.google.com/file/d/10Zah1vWA6DsHW2whydTpK9rm9WisPiTf/view?usp=sharing)
+
+*Description:*  Windows 10 Home (x64), browser Firefox ver. 111.0.1
 
 ## [Rosmann](https://www.rossmann.pl/)
 
